@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="style.css"> 
+	<title>Aku Store</title> 
+    <link rel="icon" href="imgg/Ilustraciónaku.jpg">
+</head> 
+<body> 
+
+    <header> 
+	
+        <header> 
+            <nav class="navbar"> 
+                <div class="logo"> 
+                    <a href="#"> 
+                        <img src= "imgg/Ilustraciónlogo.jpg"
+                            alt="gfg_logo"> 
+                    </a> 
+                </div> 
+                <div class="hamburger-menu"> 
+                    <span class="line"></span> 
+                    <span class="line"></span> 
+                    <span class="line"></span> 
+                </div> 
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="drop-button">Productos</button>
+                   <div id="myDropdown" class="dropdown-content">
+                     <a href="Peluches.html">Peluches</a>
+                     <a href="Figuras.html">Figuras</a>
+                     <a href="#">Ver todo</a>
+                   </div>
+               
+            
+                  
+                   <button class="button.btn.btn-outline-dark" type='submit'>
+                    <img src="imgg/anadir-al-carrito.png" alt="" width="35" height="35">
+                     <ul id="carrito-lista">
+                     </ul>
+                     <p>Total: $<span id="carrito-total">0.00</span></p>
+                 </button>
+ 
+                 <button class="finalizar-compra-btn" type="submit">
+                     <ul id="finalizar-compra-btn"></ul>
+                     <p>Comprar</p>
+                 </button>
+                </ul>
+                </nav>
+             
+        </header>        
+	</header> 
+
+    <main>
+        <section class="producto">
+            <img src="imgg/gojo.jpg" alt="Producto 1">
+            <h2>Peluche Gojo</h2>
+            <p>Precio: $15000</p>
+            <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+        </section>
+      
+        <section class="producto">
+            <img src="imgg/gj.jfif" alt="Producto 2">
+            <h2>Figura Gojo</h2>
+            <p>Precio: $50.000</p>
+            <button onclick="agregarAlCarrito(2)">Agregar al carrito</button>
+        </section>
+      
+        <section class="producto">
+            <img src="imgg/jjk.jpeg" alt="Producto 3">
+            <h2>Peluches jjk</h2>
+            <p>Precio: $10.000</p>
+            <button onclick="agregarAlCarrito(3)">Agregar al carrito</button>
+        </section>
+      
+        <section class="producto">
+            <img src="imgg/po_bsd_bungo_stray_dogs_mini_s_1655448025_fb47e7ce_progressive.jpg" alt="Producto 4">
+            <h2>Standee bsd</h2>
+            <p>Precio: $5.000</p>
+            <button onclick="agregarAlCarrito(4)">Agregar al carrito</button>
+        </section>
+      
+        <section class="producto">
+          <img src="imgg/9403853668382ats.jpg" alt="Producto 4">
+          <h2>Nendoroid Atsushi</h2>
+          <p>Precio: $70.000</p>
+          <button onclick="agregarAlCarrito(5)">Agregar al carrito</button>
+      </section>
+      
+      <section class="producto">
+          <img src="imgg/bsdp.jpg" alt="Producto 6">
+          <h2>Peluches bsd</h2>
+          <p>Precio: $5.000</p>
+          <button onclick="agregarAlCarrito(6)">Agregar al carrito</button>
+      </section>
+      </main>
+      
+
+      <footer>
+          <p2>
+            ©2023 Aku Tienda
+          </p2> 
+    </footer>
+</body> 
+<script src="./script.js"></script> 
+</html> 
