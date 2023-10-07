@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="style.css"> 
+	<title>Aku Store</title> 
+    <link rel="icon" href="imgg/Ilustraciónaku.jpg">
+</head> 
+
+<body> 
+	<header> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<a href="Index.html"> 
+					<img src= "imgg/Ilustraciónlogo.jpg"
+						alt="gfg_logo"> 
+				</a> 
+			</div> 
+			<div class="hamburger-menu"> 
+				<span class="line"></span> 
+				<span class="line"></span> 
+				<span class="line"></span> 
+			</div> 
+            <div class="dropdown">
+                <button onclick="myFunction()" class="drop-button">Productos</button>
+               <div id="myDropdown" class="dropdown-content">
+                 <a href="Peluches.html">Peluches</a>
+                 <a href="#">Figuras</a>
+                 <a href="Productos.html">Ver todo</a>
+               </div>
+               <button onclick="myFuctionn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart"><img src="imgg/anadir-al-carrito.png" alt="" width="25" height="25"> (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Eliminar</button>
+
+            </nav>
+            
+	</header> 
+
+    <main>
+        <section class="producto">
+            <img src="imgg/gj.jfif" alt="Producto 2">
+            <h2>Figura Gojo</h2>
+            <p>Precio: $50.000</p>
+            <button onclick="agregarAlCarrito(2)">Agregar al carrito</button>
+        </section>
+
+        <section class="producto">
+            <img src="imgg/po_bsd_bungo_stray_dogs_mini_s_1655448025_fb47e7ce_progressive.jpg" alt="Producto 4">
+            <h2>Standee bsd</h2>
+            <p>Precio: $5.000</p>
+            <button onclick="agregarAlCarrito(4)">Agregar al carrito</button>
+        </section>
+      
+        <section class="producto">
+          <img src="imgg/9403853668382ats.jpg" alt="Producto 5">
+          <h2>Nendoroid Atsushi</h2>
+          <p>Precio: $70.000</p>
+          <button onclick="agregarAlCarrito(5)">Agregar al carrito</button>
+      </section>
+        </main>
+        
+        
+              <footer>
+                  <p2>
+                    ©2023 Aku Tienda
+                  </p2> 
+            </footer>
+</body> 
+<script src="./script.js"></script> 
+</html> 
